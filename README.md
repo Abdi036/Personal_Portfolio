@@ -1,2 +1,3 @@
 # Personal_Portfolio
-personal portfolio 
+personal portfolio not responsive for now
+
