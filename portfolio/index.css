@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap");
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  color: #fff;
+  width: 100%;
+  height: auto;
+  background: radial-gradient(#00000077, #000000d0),
+    url(images/pexels-ryutaro-tsukata-6249808.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header Section */
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.header_links {
+  max-width: 65%;
+  border: 2px solid #1c1c3b;
+  border-radius: 35px;
+  box-shadow: inset 1px 2px 4px #949292;
+  padding: 1rem;
+  background: #00000028;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s;
+}
+
+.header_links:hover {
+  background: linear-gradient(#3d093d62, #3d093d62);
+}
+
+.logo_wrapper {
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+}
+
+.link_wrapper a {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.link_wrapper a:hover {
+  opacity: 1;
+}
+
+.link_wrapper a:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.link_wrapper img {
+  margin-right: 0.75rem;
+}
+
+.link_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Self Description Section */
+.self_description {
+  padding: 3rem 0;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.self_description h1 {
+  padding: 1rem 0 3rem 0;
+  font-size: 50px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: larger;
+}
+
+.blog_link {
+  margin: 0 1rem;
+  border-radius: 25px;
+  border: 2px solid #1c1c3b;
+  box-shadow: inset 1px 2px 3px #949292;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+
+.blog_link:hover {
+  opacity: 0.5;
+}
+
+.blog_link:active {
+  opacity: 1;
+}
+
+.about_link:hover {
+  text-decoration: 2px underline #fff;
+}
+
+.about_link:active {
+  opacity: 0.6;
+}
+
+/* Project Section */
+.project_header {
+  text-align: center;
+}
+
+#project_content {
+  height: auto;
+}
+
+.project_header h1 {
+  font-size: 50px;
+  padding: 1rem 0;
+}
+
+.project_header > p,
+.project_descripton > p {
+  opacity: 0.7;
+}
+
+.my_projects {
+  margin: 3rem 0;
+  padding: 3rem 1rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.content img {
+  width: 100%;
+  height: 200px;
+}
+
+.other_project {
+  border-radius: 25px;
+  border: 2px solid #1c1c3b;
+  box-shadow: inset 1px 2px 3px #949292;
+  padding: 10px 15px;
+}
+
+.other_project-container {
+  text-align: center;
+}
+
+.other_project:hover {
+  opacity: 0.5;
+}
+
+.other_project:active {
+  opacity: 1;
+}
+
+/* Skill Section */
+.skill_container {
+  text-align: center;
+}
+
+.skill_container h1 {
+  padding: 3rem 0;
+  font-size: 40px;
+}
+
+.skill_types {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills img {
+  width: 150px;
+}
+
+/* Connect Section */
+
+.connect {
+  text-align: center;
+}
+
+.connect h1 {
+  font-size: 40px;
+  padding: 3rem 0;
+}
+
+.contact_me {
+  border-radius: 25px;
+  border: 2px solid #1c1c3b;
+  box-shadow: inset 1px 2px 3px #949292;
+  padding: 10px 25px;
+}
+
+.contact_me:hover {
+  opacity: 0.5;
+}
+.contact_me:active {
+  opacity: 1;
+}
+.contact_me-container {
+  margin-top: 5rem;
+}
