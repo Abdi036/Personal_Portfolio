@@ -126,8 +126,12 @@ section {
   text-align: center;
 }
 
-#project_content {
+#project_content,
+#connect {
   height: auto;
+  background: linear-gradient(to bottom, #80808021, #0ba9dd8e);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 .project_header h1 {
@@ -232,6 +236,7 @@ section {
 .footer_container {
   /* border: 2px solid red; */
   text-align: center;
+  margin-top: 5rem;
 }
 .footer {
   padding: 1rem;
@@ -278,7 +283,4 @@ section {
   .skills img {
     width: 80px;
   }
-}
-
-@media only screen and (max-width: 767px) {
 }
