@@ -234,9 +234,8 @@ section {
 
 /* socials  */
 .footer_container {
-  /* border: 2px solid red; */
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .footer {
   padding: 1rem;
@@ -248,24 +247,31 @@ section {
   margin-left: 10px;
 }
 /* contact me from */
-
+.contact_header {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: xx-large;
+}
 .form_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
+  padding: 2rem 0;
+  /* border: 2px solid red; */
 }
 .form_container {
   display: flex;
   justify-content: center;
-  margin: 3rem 2rem;
+  margin: 2.5rem;
+  /* border: 2px solid red; */
 }
 .form_container label {
   margin: 1rem 0.5rem;
   color: #b9aaaa;
 }
 .form_container input {
-  padding: 0.75rem 5rem;
+  padding: 0.75rem 6rem;
   background: #00000052;
   border-radius: 25px;
   border: none;
@@ -273,7 +279,7 @@ section {
     inset 2px 2px 3px #240824;
 }
 .submit_button-container {
-  margin-left: 10rem;
+  margin-left: 12rem;
 }
 .submit_button {
   padding: 0.75rem 3rem;
