@@ -247,7 +247,49 @@ section {
 .footer .social {
   margin-left: 10px;
 }
+/* contact me from */
 
+.form_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.form_container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 2rem;
+}
+.form_container label {
+  margin: 1rem 0.5rem;
+  color: #b9aaaa;
+}
+.form_container input {
+  padding: 0.75rem 5rem;
+  background: #00000052;
+  border-radius: 25px;
+  border: none;
+  box-shadow: inset 2px 2px 3px #240824, inset 2px 2px 3px #240824,
+    inset 2px 2px 3px #240824;
+}
+.submit_button-container {
+  margin-left: 10rem;
+}
+.submit_button {
+  padding: 0.75rem 3rem;
+  border-radius: 25px;
+  border: none;
+  color: #d8c2c2;
+  background: #00000050;
+  box-shadow: inset 2px 2px 3px #240824, inset 2px 2px 3px #240824,
+    inset 2px 2px 3px #240824;
+}
+.submit_button:hover {
+  opacity: 0.6;
+}
+.submit_button:active {
+  opacity: 1;
+}
 /* responsiveness */
 /* for desktop */
 @media only screen and (min-width: 1024px) {
