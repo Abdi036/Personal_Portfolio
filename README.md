@@ -1,4 +1,5 @@
 # Personal_Portfolio
-responsive portfolio with project
+responsive personal portfolio with projects
+
 
 
